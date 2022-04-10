@@ -10,13 +10,6 @@ body {
   width: 100%;
 }
 
-.container {
-  max-width: 70%;
-  margin: 0 auto;
-}
-
-
-  
   /* crossed lines - background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E"); */
 
 
@@ -390,4 +383,26 @@ div .img-style-12::before {
 }
 div .img-style-12:hover:before {
   opacity: 0;
+}
+
+
+@media (min-width:320px) {
+  .container {
+    max-width: 65%;
+    margin: auto;
+  }
+}
+
+@media (min-width:1000px) {
+  .container {
+    max-width: 65%;
+    margin: auto;
+  }
+}
+
+@media (max-width:2100px) {
+  .container {
+    max-width: 55%;
+    margin: auto;
+  }
 }
